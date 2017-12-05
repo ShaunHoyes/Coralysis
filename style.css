@@ -1,0 +1,50 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  background-color: coral;
+  color: white;
+}
+
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+#price {
+  font-family: 'Lato', sans-serif;
+  font-size: 400%;
+  /*text-align: center;*/
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  white-space: nowrap;
+  /*transform: translate(-50%, -50%);*/
+}
+
+#image {
+  /*background-color: #636e72;*/
+  height: 100px;
+  width: 200px;
+  position: fixed;
+  top: 25%;
+  left: 10%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+#app {
+  height: 200px;
+  width: 400px;
+  position: fixed;
+  /*background-color: grey;*/
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}

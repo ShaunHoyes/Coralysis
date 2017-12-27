@@ -1,2 +1,2 @@
 # Coralysis
-bitcoin ecosystem analysis
+bitcoin price analysis

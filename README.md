@@ -1,2 +1,2 @@
 # Coralysis
-bitcoin price analysis
+returns bitcoin price using the coinmarketcap.com api
